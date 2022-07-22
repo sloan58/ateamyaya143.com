@@ -1,26 +1,26 @@
 {
-    "cartTitle": "CLOTH",
-    "cartDescription": "expressCart",
+    "cartTitle": "Team Yaya",
+    "cartDescription": "ALS Store for Team Yaya",
     "cartLogo": "",
-    "baseUrl": "http://localhost:1111",
+    "baseUrl": "https://teamyaya143.com",
     "emailHost": "smtp-mail.outlook.com",
     "emailPort": 587,
     "emailSecure": false,
     "emailUser": "hi@markmoffat.com",
     "emailPassword": "this_is_the_smtp_password",
-    "emailAddress": "hi@markmoffat.com",
+    "emailAddress": "hi@teamyaya143.com",
     "productsPerRow": 3,
     "productsPerPage": 6,
     "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;Powered by expressCart&lt;/h4&gt;",
     "googleAnalytics": "",
     "injectJs": "",
     "customCss": "",
-    "currencySymbol": "£",
+    "currencySymbol": "$",
     "currencyISO": "USD",
     "paymentGateway": [
         "stripe"
     ],
-    "databaseConnectionString": "mongodb://127.0.0.1:27017/expresscart",
+    "databaseConnectionString": "mongodb+srv://admin:zBnKv57cjcYBIEHu@teamyaya.qkmsn.mongodb.net/teamyayadev?retryWrites=true&w=majority",
     "theme": "Cloth",
     "trackStock": false,
     "orderHook": "",
@@ -47,5 +47,9 @@
         }
     },
     "showRelatedProducts": true,
-    "showHomepageVariants": false
+    "showHomepageVariants": false,
+    "secretCookie": "8c35271c584159b05bb406a000e336572d76943b",
+    "secretSession": "e1049f17c9ddfd928825e21d9395d1991c7d733b",
+    "themeViews": "../views/themes/Cloth/",
+    "env": ""
 }
