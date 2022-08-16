@@ -104,6 +104,7 @@
             <h4>Related products</h4>
             <div class="row">
                 {{#each relatedProducts}}
+                {{#if this.productPublished }}
                 <div class="col-md-3">
                     <div>
                         {{#if productPermalink}}
@@ -147,6 +148,7 @@
                         </p>
                     </div>
                 </div>
+                {{/if}}
                 {{/each}}
             </div>
         </div>
